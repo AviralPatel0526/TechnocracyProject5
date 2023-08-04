@@ -1,0 +1,42 @@
+.div7{
+    display: flex;
+    min-height: 120px;
+    overflow-x: auto;
+    margin-left: 200px;
+  margin-right: 200px;
+  scroll-snap-type: x mandatory;
+scroll-behavior: smooth;
+
+}
+
+.div7::-webkit-scrollbar{
+    width: 0;
+}
+.div71{
+    animation-name: scroll;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    padding-top: 25px;
+     min-width: 400px;
+     height: 110px;
+     text-align: center;
+    margin-right: 180px;
+     background-color:  #1d1d1d;
+     scroll-snap-align: start;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-1250px));
+    }
+}
+
+ .div7 .div71 p{
+    color: white;
+    font-size: 50px;
+ }
+ 
+ 
+ 

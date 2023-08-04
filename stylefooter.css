@@ -1,0 +1,16 @@
+.div81{
+    padding-top: 5%;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 5%
+}
+.div8 ul li {
+    list-style: none;
+}
+.copyright{
+    margin-top: 5%;
+   text-align: center;
+   margin-bottom: 2%;
+    color: white;
+}

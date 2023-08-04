@@ -1,0 +1,27 @@
+.div2{
+    display: flex;
+    min-height: 120px;
+    overflow-x: auto;
+    margin-left: 5dvw;
+  margin-right: 5dvw;
+  scroll-snap-type: x mandatory;
+scroll-behavior: smooth;
+}
+.box{
+   min-width: 30dvw;
+    height: 110px;
+    text-align: center;
+   margin-right: 20dvw;
+    background-color:  #1d1d1d;
+    scroll-snap-align: start;
+   
+}
+.pic{
+    margin-top: 5dvh;
+    height: 40%;
+    width: 100%;
+    scroll-snap-align: start;
+}
+.div2::-webkit-scrollbar{
+    width: 0;
+}

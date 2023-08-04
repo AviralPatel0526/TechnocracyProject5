@@ -1,0 +1,60 @@
+.div6{
+    display: flex;
+    height: 550px;
+ 
+    overflow-x: auto;
+   align-items: center;
+   scroll-snap-type: x mandatory;
+   scroll-behavior: smooth;
+}
+.div61{
+    height:400px;
+    min-width: 400px;
+
+    margin-right: 80px;
+    scroll-snap-align: start;
+}
+.div62{
+    height: 450px;
+    min-width: 450px;
+
+     margin-right: 80px;
+     scroll-snap-align: start;
+
+}
+#div611{
+    height:100%;
+     width:100%;
+}
+#div613{
+    height:100%; 
+    width:100%;
+}
+#div615{
+    height:100%; 
+    width:100%;
+}
+#div617{
+    height:100%; 
+    width:100%;  
+}
+#div612{
+    height: 100%;
+    width: 100%;
+}
+#div614{
+    height: 100%;
+    width: 100%;  
+}
+#div616{
+    height: 100%;
+    width: 100%;
+}
+#div618{
+    height: 100%;
+    width: 100%;
+}
+.div6::-webkit-scrollbar{
+    width: 0;
+}
+   
